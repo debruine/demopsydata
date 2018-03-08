@@ -1,0 +1,17 @@
+Package: demopsydata
+Title: Demo Psychology Data
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Lisa", "DeBruine", email = "debruine@gmail.com", role = c("aut", "cre")), 
+  person("Benedict", "Jones", email = "ben.jones@glasgow.ac.uk", role = c("ctb"))
+  )
+Description: This package contains example datasets for use in psychology
+    methods classes. These data are all from published or unpublished
+    research done in the Face Research Lab.
+Depends:
+    R (>= 2.10)
+Imports:
+    tibble
+License: MIT + LICENCE
+LazyData: true
+RoxygenNote: 6.0.1
